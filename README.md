@@ -1,18 +1,10 @@
-# Fortis
+# Scribe
 
 ![hugo version](https://img.shields.io/badge/Hugo-0.91-09f)
-![license](https://img.shields.io/github/license/chrishannah/fortis)
+![license](https://img.shields.io/github/license/chrishannah/scribe)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
-A theme for Micro.blog that stands out. Based on my minimal Micro.blog theme, [Pure](https://github.com/chrishannah/pure).
-
-## Screenshots
-
-![post](images/post.png)
-
-![micro post](images/micro-post.png)
-
-![archive list](images/archive.png)
+A theme for Micro.blog that's a bit more contemporary. Based on my minimal Micro.blog theme, [Pure](https://github.com/chrishannah/pure).
 
 ## Code Style
 

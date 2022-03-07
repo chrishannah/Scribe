@@ -1,32 +1,39 @@
 @font-face {
-	font-family: 'Exo';
-	src: url('/fonts/exo/Exo-Italic-VariableFont_wght.ttf') format('woff2 supports variations'),
-		url('/fonts/exo/Exo-Italic-VariableFont_wght.ttf') format('woff2-variations');
+	font-family: 'Catamaran';
+    src: url('/fonts/Catamaran.ttf') format('woff2 supports variations'),
+		url('/fonts/Catamaran.ttf') format('woff2-variations');
 	font-weight: 100 1000;
 	font-stretch: 25% 151%;
 }
 
 @font-face {
-	font-family: 'Exo';
-	src: url('/fonts/exo/Exo-VariableFont_wght.ttf') format('woff2 supports variations'),
-		url('/fonts/exo/Exo-VariableFont_wght.ttf') format('woff2-variations');
+	font-family: 'Crimson Pro';
+    src: url('/fonts/CrimsonPro.ttf') format('woff2 supports variations'),
+		url('/fonts/CrimsonPro.ttf') format('woff2-variations');
 	font-weight: 100 1000;
-	font-stretch: 25% 151%;
+}
+
+@font-face {
+	font-family: 'Crimson Pro';
+    src: url('/fonts/CrimsonPro-Italic.ttf') format('woff2 supports variations'),
+		url('/fonts/CrimsonPro-Italic.ttf') format('woff2-variations');
+	font-weight: 100 1000;
+    font-style: italic;
 }
 
 :root {
-	--background: #371554;
-	--background-alt: #451d67;
-	--text: #eeeeee;
-	--text-alt: #cda0f4;
-	--accent: #ff0077;
-	--accent-alt: #490123;
+    --background: #fffbf7;
+	--background-alt: #f7f2ed;
+	--text: #444;
+	--text-alt: #444;
+	--accent: #BD0034;
+	--accent-alt: #fcdc31;
 }
 
 html {
 	background-color: var(--background);
 	color: var(--text);
-	font-family: 'Exo', sans-serif;
+	font-family: "Crimson Pro", "Garamond", serif;
 	line-height: 1.8;
 	font-size: 18px;
 }
@@ -36,6 +43,10 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 16px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: "Catamaran", -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
 }
 
 h1 {
