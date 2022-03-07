@@ -4,7 +4,7 @@
 ![license](https://img.shields.io/github/license/chrishannah/scribe)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
-A theme for Micro.blog that's a bit more contemporary. Based on my minimal Micro.blog theme, [Pure](https://github.com/chrishannah/pure).
+A theme for Micro.blog that's a bit more contemporary. Based on my minimal Micro.blog theme, [Fortis](https://github.com/chrishannah/fortis).
 
 ## Code Style
 
