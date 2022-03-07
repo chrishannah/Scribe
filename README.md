@@ -1,7 +1,7 @@
 # Scribe
 
 ![hugo version](https://img.shields.io/badge/Hugo-0.91-09f)
-![license](https://img.shields.io/github/license/chrishannah/scribe)
+![license](https://img.shields.io/github/license/chrishannah/Scribe)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat)](https://github.com/prettier/prettier)
 
 A theme for Micro.blog that's a bit more contemporary. Based on my minimal Micro.blog theme, [Fortis](https://github.com/chrishannah/fortis).
