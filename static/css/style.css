@@ -27,7 +27,7 @@
 	--text: #444;
 	--text-alt: #444;
 	--accent: #BD0034;
-	--accent-alt: #fcdc31;
+	--accent-alt: #e4deba;
 }
 
 html {
@@ -35,7 +35,7 @@ html {
 	color: var(--text);
 	font-family: "Crimson Pro", "Garamond", serif;
 	line-height: 1.8;
-	font-size: 18px;
+	font-size: 20px;
 }
 
 body {
@@ -45,7 +45,7 @@ body {
 	padding: 0 16px;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1, h2, h3, h4, h5, h6, nav {
 	font-family: "Catamaran", -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
 }
 
@@ -72,13 +72,12 @@ article a {
 }
 
 article header {
-	text-align: center;
+    font-family: "Catamaran", -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
 }
 
 article header h1 a {
 	color: var(--accent);
-	font-size: 1.6em;
-	text-transform: uppercase;
+	font-size: 1.2em;
 }
 
 article header h1 {
@@ -87,7 +86,6 @@ article header h1 {
 
 article header time {
 	color: var(--text-alt);
-	text-transform: uppercase;
 }
 
 main {
@@ -99,9 +97,8 @@ body > header {
 }
 
 body > header h1 {
-	font-size: 4em;
+	font-size: 2em;
 	text-transform: uppercase;
-	font-style: italic;
 	font-weight: 800;
 	padding-bottom: 0px;
 }
@@ -111,7 +108,7 @@ menu {
 	padding: 0;
 	text-align: center;
 	text-transform: uppercase;
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 menu li {
@@ -136,6 +133,7 @@ menu {
 }
 
 footer {
+    text-align: center;
 	margin-top: 32px;
 }
 
@@ -144,17 +142,11 @@ article {
 }
 
 hr {
-	border: none;
-	overflow: hidden;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-hr:after {
-	content: '∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿∿';
-	letter-spacing: -9.6px;
-	font-size: 60px;
-	color: var(--background-alt);
+	color: var(--accent-alt);
+    height: 0;
+    border: none;
+    border-bottom: 2px solid var(--accent-alt);
+    margin: 18px auto
 }
 
 blockquote {
