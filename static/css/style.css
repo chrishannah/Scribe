@@ -1,26 +1,3 @@
-@font-face {
-	font-family: 'Catamaran';
-    src: url('/fonts/Catamaran.ttf') format('woff2 supports variations'),
-		url('/fonts/Catamaran.ttf') format('woff2-variations');
-	font-weight: 100 1000;
-	font-stretch: 25% 151%;
-}
-
-@font-face {
-	font-family: 'Crimson Pro';
-    src: url('/fonts/CrimsonPro.ttf') format('woff2 supports variations'),
-		url('/fonts/CrimsonPro.ttf') format('woff2-variations');
-	font-weight: 100 1000;
-}
-
-@font-face {
-	font-family: 'Crimson Pro';
-    src: url('/fonts/CrimsonPro-Italic.ttf') format('woff2 supports variations'),
-		url('/fonts/CrimsonPro-Italic.ttf') format('woff2-variations');
-	font-weight: 100 1000;
-    font-style: italic;
-}
-
 :root {
     --background: #fffbf7;
 	--background-alt: #f7f2ed;
@@ -33,7 +10,7 @@
 html {
 	background-color: var(--background);
 	color: var(--text);
-	font-family: "Crimson Pro", "Garamond", serif;
+	font-family: "Georgia", "Garamond", serif;
 	line-height: 1.8;
 	font-size: 20px;
 }
@@ -46,7 +23,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6, nav {
-	font-family: "Catamaran", -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
 }
 
 h1 {
@@ -72,7 +49,7 @@ article a {
 }
 
 article header {
-    font-family: "Catamaran", -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
 }
 
 article header h1 a {
