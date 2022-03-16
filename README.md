@@ -8,6 +8,8 @@ A theme for Micro.blog that's a bit more contemporary. Based on my minimal Micro
 
 ## Screenshots
 
+Here are a few screenshots of how this theme looks like on a real Micro blog.
+
 ### Post
 
 ![post](images/post.png)
