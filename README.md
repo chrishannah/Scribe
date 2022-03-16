@@ -6,6 +6,28 @@
 
 A theme for Micro.blog that's a bit more contemporary. Based on my minimal Micro.blog theme, [Fortis](https://github.com/chrishannah/fortis).
 
+## Screenshots
+
+### Post
+
+![post](images/post.png)
+
+### Micro Post
+
+![micro post](images/micro-post.png)
+
+### Archive
+
+![archive](images/archive.png)
+
+### Replies
+
+![replies](images/replies.png)
+
+### Photos
+
+![photos](images/photos.png)
+
 ## Code Style
 
 This project makes use of the [Prettier](https://prettier.io) code formatter. This formatting will be done automatically in a GitHub Action, but most IDEs can be configured to run this locally.
