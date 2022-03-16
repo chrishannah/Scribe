@@ -10,7 +10,7 @@ A theme for Micro.blog that's a bit more contemporary. Based on my minimal Micro
 
 Here are a few screenshots of how this theme looks like on a real Micro blog.
 
-### Post
+### Post
 
 ![post](images/post.png)
 
