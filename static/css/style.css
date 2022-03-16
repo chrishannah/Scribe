@@ -1,10 +1,10 @@
 :root {
-    --background: #fffbf7;
+	--background: #fffbf7;
 	--background-alt: #f7f2ed;
 	--text: #444;
 	--text-alt: #444;
-	--accent: #BD0034;
-	--accent-alt: #e4deba;
+	--accent: #bd0034;
+	--accent-alt: #ffeede;
 }
 
 html {
@@ -22,8 +22,14 @@ body {
 	padding: 0 16px;
 }
 
-h1, h2, h3, h4, h5, h6, nav {
-	font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+nav {
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
 }
 
 h1 {
@@ -35,7 +41,10 @@ h2 {
 	font-weight: 500;
 }
 
-h3, h4, h5, h6 {
+h3,
+h4,
+h5,
+h6 {
 	font-weight: 400;
 }
 
@@ -49,7 +58,7 @@ article a {
 }
 
 article header {
-    font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, "Helvetica Neue", sans-serif;
 }
 
 article header h1 a {
@@ -74,10 +83,18 @@ body > header {
 }
 
 body > header h1 {
-	font-size: 2em;
+	font-size: 2.3em;
 	text-transform: uppercase;
 	font-weight: 800;
 	padding-bottom: 0px;
+}
+
+body > header h1 a {
+	color: inherit;
+}
+
+body > header h1 a:hover {
+	color: var(--accent);
 }
 
 menu {
@@ -92,13 +109,22 @@ menu li {
 	display: inline;
 }
 
+menu li a {
+	border-bottom: 2px solid var(--accent);
+	color: inherit;
+}
+
+menu li a:hover {
+	color: var(--accent);
+}
+
 menu li:after {
-	content: ' | ';
+	content: " | ";
 	color: var(--background-alt);
 }
 
 menu li:last-child:after {
-	content: '';
+	content: "";
 }
 
 header {
@@ -110,7 +136,7 @@ menu {
 }
 
 footer {
-    text-align: center;
+	text-align: center;
 	margin-top: 32px;
 }
 
@@ -120,10 +146,10 @@ article {
 
 hr {
 	color: var(--accent-alt);
-    height: 0;
-    border: none;
-    border-bottom: 2px solid var(--accent-alt);
-    margin: 18px auto
+	height: 0;
+	border: none;
+	border-bottom: 2px solid var(--accent-alt);
+	margin: 18px auto;
 }
 
 blockquote {
@@ -133,15 +159,15 @@ blockquote {
 }
 
 code {
-	color: var(--accent-alt);
-	background-color: var(--accent);
+	color: var(--accent);
+	background-color: var(--accent-alt);
 	padding: 3px;
 	border-radius: 0.4em;
 	font-size: 16px;
 }
 
 pre {
-	background-color: var(--accent);
+	background-color: var(--accent-alt);
 	border-radius: 0.4em;
 }
 
@@ -149,7 +175,9 @@ pre code {
 	background-color: inherit;
 }
 
-img, video, iframe {
+img,
+video,
+iframe {
 	max-width: 100%;
 	height: auto;
 	border: 8px solid var(--background-alt);
@@ -168,6 +196,7 @@ img, video, iframe {
 
 .microblog_avatar {
 	border-radius: 1em;
+	border-width: 2px;
 }
 
 .microblog_time a {
